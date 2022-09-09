@@ -1,0 +1,36 @@
+.errorContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.errorImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorImage img {
+    width: 70%;
+}
+
+.errorInfo p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+    opacity: .8;
+}
+
+.errorLink a h2{
+    padding: .5rem;
+    background-color: var(--yellow);
+    color: #fff;
+    border-radius: .2rem;
+    margin: 0 0 2rem 0;
+}
+
+.errorLink a h2:hover{
+    transform: scale(1.1);
+    transition: .2s;
+}

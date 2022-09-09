@@ -1,0 +1,301 @@
+.seoService{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0 5rem 0;
+}
+
+.seoServiceHeader{
+    width: 100%;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding: 2rem 0 2rem 0;
+}
+
+.seoServiceHeader h2{
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 0 .5rem 0;
+}
+
+.seoServiceHero{
+    background-color: var(--offWhite);
+    color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0 3rem 0;
+}
+
+
+
+.seoServiceHero .sshLeft{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sshLeft .sshImage img{
+    width: 90%;
+}
+
+.sshLeft .sshContent{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.sshContent h2{
+    margin: 0 0 1rem 0;
+}
+
+.sshContent p{
+    margin: 0 0 1rem 0;
+}
+
+.seoServiceHero .sshRight{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seoServiceForm{
+    margin: 2rem 0 0 0;
+}
+
+.seoServiceForm input{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 0 0 0.8rem 0;
+    outline: none;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid #696969;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.seoServiceForm input:focus{
+    border-bottom: 1px solid var(--yellow);
+}
+
+.seoServiceForm textarea:focus{
+    border-bottom: 1px solid var(--yellow);
+}
+
+.seoServiceForm textarea{
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    border: none;
+    border-bottom: 1px solid #696969;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    font-size: 1rem;
+    margin: 0 0 0.8rem 0;
+    font-family: 'Montserrat', sans-serif;
+    resize: none;
+}
+
+.ssSubmit input{
+    background-color: var(--yellow);
+    border: 1px solid var(--yellow);
+    border-radius: .2rem;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ssSubmit input:hover{
+    transform: scale(.9);
+    transition: .3s;
+}
+
+.whySeoService{
+    padding: 5rem 0 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.whySeoService h4{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.whySeoService h2{
+    text-align: center;
+    margin: 0.5rem 0 0.5rem 0;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.seoServiceTabs{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+    margin: 0 0 1rem 0;
+}
+
+.seoServiceTab{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.seoServiceIcons{
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+    color: var(--yellow);
+}
+
+.seoServiceTab h4{
+    margin: 0 0 1rem 0;
+}
+
+
+.seoServiceQuote{
+    width: 98%;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 2rem 0;
+}
+
+.seoServiceQuote p{
+    font-size: 1.5rem;
+    padding: 1.5rem 0 1.5rem 0;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.seoBenefits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.seoBTabs{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+    margin: 0 0 1rem 0;
+}
+
+.seoBContent h3{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 3rem 0 1.5rem 0;
+}
+
+.seoBTab{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.seoBTab h4{
+    margin: 0 0 1rem 0;
+}
+
+@media only screen and (max-width: 600px){
+
+    .seoServiceHeader h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .seoServiceHero{
+        flex-direction: column;
+    }
+    
+
+    .seoServiceHero .sshLeft{
+        width: 100%;
+    }
+
+    .sshLeft .sshContent{
+        margin: 2rem 0 0 0;
+        width: 90%;
+    }
+
+    .sshLeft .sshImage img{
+        width: 85%;
+        margin: 0 0 2rem 0;
+    }
+
+    .seoServiceHero .sshRight{
+        width: 90%;
+    }
+
+    .whySeoService{
+        width: 95%;
+    }
+
+    .whySeoService h2{
+        font-size: 2rem;
+    }
+
+    .seoServiceTabs{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .seoServiceTab{
+        width: 90%;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        margin: 0 0 2rem 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .seoServiceQuote p{
+        text-align: center;
+    }
+
+    .seoBTabs{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .seoBContent h3{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .seoBTab{
+        width: 90%;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        margin: 0 0 2rem 0;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+

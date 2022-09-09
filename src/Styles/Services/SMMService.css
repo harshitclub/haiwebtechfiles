@@ -1,0 +1,396 @@
+.smmService{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0 4rem 0;
+    width: 100%;
+}
+
+.smmServiceHeader{
+    width: 100%;
+    color: #fff;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+}
+
+.smmServiceHeader h2{
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 0 .5rem 0;
+}
+
+.smmServiceHero{
+    background-color: var(--offWhite);
+    color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 5rem 3rem 5rem;
+}
+
+.smmServiceHeroLeft{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smmServiceHeroLeft .smmContent img{
+    width: 90%;
+}
+
+.smmServiceHeroLeft .smmContent{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.smmContent h2{
+    margin: 0 0 1rem 0;
+}
+
+.smmContent p{
+    margin: 0 0 1rem 0;
+}
+
+.smmServiceHeroRight{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.smmServiceHeroRight .smmServiceForm h4{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+}
+
+.smmServiceForm input{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 0 0 0.8rem 0;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid #696969;
+    background: transparent;
+}
+
+.smmServiceForm input:focus{
+    border-bottom: 1px solid var(--yellow);
+}
+
+.smmServiceForm textarea:focus{
+    border-bottom: 1px solid var(--yellow);
+}
+
+.smmServiceForm textarea{
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid #696969;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    font-size: 1rem;
+    margin: 0 0 0.8rem 0;
+    resize: none;
+}
+
+.smmSubmit input{
+    background-color: var(--yellow);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.smmSubmit input:hover{
+    transform: scale(.9);
+    transition: .3s;
+}
+
+.smmServiceImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 1rem 0 4rem 0;
+}
+
+.smmServiceILeft{
+    width: 50%;
+}
+
+.smmServiceILeft img{
+    width: 100%;
+}
+
+.smmServiceIRight{
+    width: 50%;
+}
+
+.smmServiceIRight h2{
+    font-size: 2rem;
+    color: var(--dark);
+    margin: 0 0 1rem 0;
+}
+
+.smmServiceIRight p{
+    font-size: 1rem;
+    margin: 0 0 .8rem 0;
+    color: var(--dark);
+}
+
+.smmPlatforms{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.smmPlatforms h2{
+    margin: 0 0 2rem 0;
+}
+
+.smmServiceTabs{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.smmServiceTab{
+    padding: 2rem 1rem 2rem 1rem;
+    margin: 1rem;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    cursor: pointer;
+    border-radius: .2rem;
+}
+
+.smmServiceTab:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.smmServiceIcons{
+    font-size: 2.5rem;
+    color: var(--yellow);
+    margin: 0 0 1rem 0;
+}
+
+.smmServiceTab h4{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+.smmTarget {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.smmTarget h2{
+    margin: 3rem 0 -3rem 0;
+}
+
+.smmTarget p{
+    margin: 4rem 0 -3rem 0;
+    text-align: center;
+    width: 80%;
+}
+
+.smmTargetTabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 10rem 0 2rem 0;
+}
+
+.smmTargetTab1{
+    width: 25%;
+    padding: 4rem 1rem 4rem 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: .2rem;
+}
+
+.smmTargetTab1:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: scale(1.1);
+    transition: .3s;
+
+}
+
+.smmTargetTab2:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: scale(1.1);
+    transition: .3s;
+
+}
+
+.smmTargetTab3:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: scale(1.1);
+    transition: .3s;
+    
+    
+}
+
+.smmTargetTab4:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: scale(1.1);
+    transition: .3s;
+   
+}
+
+.smmTargetTab2{
+    width: 25%;
+    padding: 4rem 1rem 4rem 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: -4rem 1rem 1rem 1rem;
+    border-radius: .2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.smmTargetTab3{
+    width: 25%;
+    padding: 4rem 1rem 4rem 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: -8rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: .2rem;
+
+}
+
+.smmTargetTab4{
+    width: 25%;
+    padding: 4rem 1rem 4rem 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: -12rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: .2rem;
+
+}
+
+.smmHeading{
+    font-size: 1.5rem;
+    margin: 0 0 .5rem 0;
+}
+
+.checkIcon{
+    font-size: 1.2rem;
+    margin: 0 0 -.2rem 0;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .smmServiceHeader h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .smmServiceHero{
+        flex-direction: column;
+        width: 100%;
+        padding: 2rem 0 0 0;
+    }
+
+    .smmServiceHeroLeft{
+        width: 100%;
+        margin: 0 0 3rem 0;
+    }
+
+    .smmServiceForm{
+        width: 90%;
+    }
+
+    .smmServiceHeroRight{
+        width: 100%;
+    }
+
+    .smmServiceImage{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .smmServiceIRight{
+        width: 80%;
+    }
+
+    .smmServiceILeft{
+        width: 100%;
+    }
+    
+
+
+    .smmPlatforms h2{
+        text-align: center;
+    }
+
+    .smmServiceTabs{
+        flex-direction: column;
+    }
+
+    .smmServiceTab{
+        width: 100%;
+    }
+
+    .smmTarget p{
+        width: 95%;
+        font-size: 1.2rem;
+    }
+
+
+    .smmTargetTabs{
+        flex-direction: column;
+    }
+
+    .smmTargetTab1, .smmTargetTab2, .smmTargetTab3, .smmTargetTab4{
+        width: 100%;
+        margin: 0 0 1rem 0;
+    }
+}

@@ -1,0 +1,160 @@
+nav{
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+  z-index: 9999;
+}
+
+.navContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark);
+  padding: 0 3rem 0 3rem;
+  width: 100%;
+  
+}
+
+
+
+
+
+.logo img {
+  width: 25%;
+}
+
+.navMenu .menuLinks{
+  display: flex;
+  list-style: none;
+}
+
+.navMenu ul{
+  position: relative;
+}
+
+.navMenu ul li{
+  padding: 1.2rem 0.8rem 1.2rem 0.8rem;
+  display:inline-block;
+  color: #fff;
+}
+
+.navMenu ul li a{
+  text-decoration: none;
+  color: white;
+  display:block;
+}
+
+.navMenu ul ul{
+  display: none;
+	position: absolute; 
+	top: 60px;
+  background-color: var(--dark);
+}
+
+.navMenu ul li:hover ul{
+  display:inherit;
+}
+
+.navMenu ul ul li{
+  width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+.navMenu ul ul li:hover{
+  background-color: var(--yellow);
+}
+
+/* .navMenu ul li:hover{
+  background-color: var(--yellow);
+} */
+
+
+
+.mBar{
+  display: none;
+}
+
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  background: none;
+}
+
+.nav-menu {
+  padding: 2rem 0 0 0;
+  background-color: var(--dark);
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: var(--yellow);
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: var(--dark);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
+
+@media only screen and (max-width: 600px){
+
+  .logo img {
+    width: 30%;
+  }
+
+  .navMenu{
+    display: none;
+  }
+
+  .mBar{
+    display: block;
+    padding: 0.8rem 0 0.8rem 0;
+  }
+}
+

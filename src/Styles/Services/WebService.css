@@ -1,0 +1,205 @@
+.webService{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0 5rem 0;
+}
+
+.webServiceHeader{
+    width: 100%;
+    color: #fff;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+}
+
+.webServiceHeader h2{
+    font-size: 2rem;
+    margin: 0 0 .5rem 0;
+    color: #fff;
+}
+
+
+.webServiceHero{
+    background-color: var(--offWhite);
+    color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 0 3rem 0;
+}
+
+
+
+.webServiceHero .webshLeft{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.webshLeft .webshImage img{
+    width: 90%;
+}
+
+.webshLeft .webshContent{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.webshContent h2{
+    margin: 0 0 1rem 0;
+}
+
+.webshContent p{
+    margin: 0 0 1rem 0;
+}
+
+.webServiceHero .webshRight{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.webServiceForm{
+    margin: 2rem 0 0 0;
+}
+
+.webServiceForm input{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 0 0 0.8rem 0;
+    outline: none;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid #696969;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.webServiceForm input:focus{
+    border-bottom: 1px solid var(--yellow);
+}
+
+.webServiceForm textarea:focus{
+    border-bottom: 1px solid var(--yellow);
+}
+
+.webServiceForm textarea{
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    border: none;
+    border-bottom: 1px solid #696969;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    font-size: 1rem;
+    margin: 0 0 0.8rem 0;
+    font-family: 'Montserrat', sans-serif;
+    resize: none;
+}
+
+.websSubmit input{
+    background-color: var(--yellow);
+    border: 1px solid var(--yellow);
+    border-radius: .2rem;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.websSubmit input:hover{
+    transform: scale(.9);
+    transition: .3s;
+}
+
+
+.webImpact {
+    padding: 3rem 0 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    cursor: pointer;
+}
+
+.webImpact h4, h2{
+    margin: 0 0 1rem 0;
+    color: var(--dark);
+}
+
+.webITabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.webITab{
+    padding: 1rem;
+    width: 30%;
+}
+
+.webITab .webSIcon{
+    color: var(--yellow);
+    margin: 0 0 -.1rem 0;
+}
+
+.webITab h4{
+    margin: 0 0 1rem 0;
+    color: var(--yellow);
+}
+
+
+@media only screen and (max-width: 600px){
+    .webServiceHeader h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .webServiceHero{
+        flex-direction: column;
+    }
+    
+
+    .webServiceHero .webshLeft{
+        width: 100%;
+    }
+
+    .webshLeft .webshContent{
+        margin: 2rem 0 0 0;
+        width: 90%;
+    }
+
+    .webshLeft .webshImage img{
+        width: 85%;
+        margin: 0 0 2rem 0;
+    }
+
+    .webServiceHero .webshRight{
+        width: 90%;
+    }
+
+
+    .webImpact h2{
+        text-align: center;
+    }
+
+    .webITabs{
+        flex-direction: column;
+    }
+
+    .webITab{
+        width: 90%;
+    }
+}

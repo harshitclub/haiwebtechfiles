@@ -1,0 +1,94 @@
+.seoPackages {
+    padding: 5rem 0 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seoPackages h2{
+    margin: 0 0 2rem 0;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--dark);
+}
+
+.seoPackagesContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.seoPackage{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seoPackage table{
+    padding: 0.2rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    width: 90%;
+}
+
+.seoPackage table th{
+    font-size: 1.2rem;
+    padding: 1rem 0 1rem 0;
+    background-color: var(--yellow);
+    color: #fff;
+    font-weight: 400;
+}
+
+.seoPrice{
+    text-align: center;
+    margin: 0.5rem 0 0 0;
+    display: block;
+    font-size: 1.2rem;
+}
+
+.seoBtn{
+    /* width: 40%; */
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    text-align: center;
+    margin: 0.5rem 5rem 0 5rem;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    border: 1px solid var(--yellow);
+    background-color: #fff;
+    color: var(--dark);
+}
+
+.seoBtn:hover {
+    background-color: var(--yellow);
+    color: #fff;
+    transition: 0.2s;
+}
+
+.seoPackage table span {
+    display: block;
+    margin: 0.8rem 0 0.2rem 0;
+    font-weight: 600;
+}
+
+.tickIcon {
+    margin: 0.8rem 0 -0.1rem 0;
+}
+
+
+@media only screen and (max-width: 600px){
+    .seoPackagesContainer{
+        flex-direction: column;
+    }
+
+    .seoPackage{
+        width: 100%;
+        margin: 0 0 2rem 0;
+    }
+
+    .seoPackage table span{
+        text-align: center;
+        margin: 2rem 0 0 0;
+    }
+}

@@ -1,22 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-:root{
-  --yellow:#fb9300;
-  --dark:#181617;
-  --offWhite:#f3f4f6;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+:root {
+  --yellow: #fb9300;
+  --dark: #181617;
+  --offWhite: #f3f4f6;
 }
 
-*{
+html {
+  scroll-behavior: smooth;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -27,7 +31,7 @@ body {
   background: #fb9300;
 }
 
-::selection{
+::selection {
   background: #fb9300;
   color: white;
 }

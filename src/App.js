@@ -1,31 +1,41 @@
 import React from 'react';
-import Home from './Pages/Home.jsx'
-// import TopBar from './components/TopBar'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
+import Home from './Pages/Home/Home'
+import Footer from './components/Footer/Footer'
+import Navbar from './components/Navbar/Navbar'
 import { Routes, Route } from "react-router-dom"
 import SEOPackage from './Pages/Packages/SEOPackage'
 import PPCPackage from './Pages/Packages/PPCPackage'
 import SMMPackage from './Pages/Packages/SMMPackage'
 import WebsitePackage from './Pages/Packages/WebsitePackage'
 
-import ContactPage from './Pages/ContactUs.jsx'
-import PrivacyPolicy from './Pages/PrivacyPolicy.jsx';
-import TermsCondition from './Pages/TermsCondition'
-import ErrorPage from './Pages/ErrorPage'
+import ContactPage from './Pages/Contact/ContactUs'
+import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy';
+import TermsCondition from './Pages/TermsConditions/TermsCondition'
+import ErrorPage from './Pages/ErrorPage/ErrorPage'
 
 import SEOService from './Pages/Services/SeoServices'
 import PPCService from './Pages/Services/PayPerClick'
 import SMMService from './Pages/Services/SMM'
 import WEBService from './Pages/Services/WebDevelopment'
-// import Social from './components/Social.jsx';
-
+import { Helmet } from 'react-helmet-async';
 
 
 function App() {
   return (
    <>
    {/* <TopBar/> */}
+   <Helmet>
+        <title>Hai WebTech - Digital Marketing Company</title>
+        <meta
+          name="description"
+          content="Hai Web Tech is a Digital Marketing Company, we offer Website Development & Design, SEO, SEM, SMM, PPC, etc. services and packages."
+        />
+        <meta
+          name="keywords"
+          content="Hai WebTech, ppc, seo, sem, smm, social media, search engine optimization, website design, website development, digital marketing, digital"
+        />
+        <link rel="canonical" href="/" />
+      </Helmet>
    <Navbar/>
    <Routes>
    <Route path="/" element={ <Home/> } />

@@ -1,12 +1,37 @@
 import React from "react";
+import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import { FcOk, FcCancel } from "react-icons/fc";
 import "../../Styles/Packages/WebsitePackage.css";
 
 const WebsitePackage = () => {
+  function ScrollToTopOnMount() {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
+    return null;
+  }
   return (
     <>
+      <Helmet>
+        <title>Website Design & Development Package - Hai WebTech</title>
+        <meta
+          name="description"
+          content="Website Design & Development - All information of our Website Design & Development packages on this Page. You can easily contact us if you want our Website Design & Development package for your website."
+        />
+        <meta
+          name="keywords"
+          content="Hai WebTech, Website Design & Development, Website, Message Us, Connect, Package, SEO, SEM, PPC, Website Design, Email, Phone, Name, Message"
+        />
+        <link rel="canonical" href="/website-package" />
+      </Helmet>
       <div className="webPackages">
-        <h2>WEBSITE PACKAGES</h2>
+        <ScrollToTopOnMount />
+        <div className="webServiceHeader">
+          <h2>Take Your Business Online With Website Now</h2>
+          <h4>Website Development & Design</h4>
+        </div>
         <div className="webPackagesContainer">
           <div className="webPackage">
             <table>
@@ -172,7 +197,7 @@ const WebsitePackage = () => {
               <tr>
                 <th>Small Business</th>
               </tr>
-              
+
               <tr>
                 <td>
                   &nbsp;
@@ -332,7 +357,7 @@ const WebsitePackage = () => {
               <tr>
                 <th>Ecommerce</th>
               </tr>
-             
+
               <tr>
                 <td>
                   &nbsp;

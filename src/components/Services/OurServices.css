@@ -1,0 +1,97 @@
+.ourServices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 0 5rem 0;
+  width: 100%;
+}
+
+.ourServices h2 {
+  font-size: 1.8rem;
+  margin: 0 0 2rem 0;
+  color: var(--dark);
+}
+
+.servicesContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.serviceContainer {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 23%;
+  height: 18rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  border: 2.5px solid var(--dark);
+}
+
+.serviceContainer:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.serviceIcon {
+  font-size: 2rem;
+  color: var(--yellow);
+  margin: 0 0 1rem 0;
+}
+
+.serviceContainer:hover {
+  border: 2.5px solid var(--yellow);
+  transition: 0.2s;
+}
+
+.serviceContainer h4 {
+  font-size: 1.2rem;
+  margin: 0 0 1rem 0;
+  color: var(--dark);
+}
+
+.serviceContainer p {
+  font-size: 1rem;
+  color: var(--dark);
+  margin: 0 0 3rem 0;
+  text-align: center;
+}
+
+.serviceContainer span a {
+  background-color: #fff;
+  color: var(--dark);
+  width: 8rem;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid var(--dark);
+  border-radius: 0.2rem;
+  box-shadow: rgba(60, 64, 67, 0.1) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.08) 0px 1px 3px 1px;
+}
+
+.serviceContainer span a:hover {
+  background-color: #fff;
+  color: var(--yellow);
+  border: 1px solid var(--yellow);
+  transition: 0.2s;
+}
+
+@media only screen and (max-width: 600px) {
+  .ourServices h2 {
+    font-size: 1.5rem;
+  }
+  .servicesContainer {
+    flex-direction: column;
+  }
+
+  .serviceContainer {
+    width: 90%;
+    margin: 0 0 2rem 0;
+  }
+}
